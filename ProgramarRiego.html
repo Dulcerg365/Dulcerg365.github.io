@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/gardening.png"> 
+    <title>Automated Land Irrigation </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/Riego.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>  
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <label class="fuenteTitulo  " href="#">
+                    <img src="img/gardening.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top">
+                    Automated Land Irrigation 
+                </label>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <form action="" id="form1">
+            <div id="dv">
+
+                <div class="col-10"><label class="buttons" for="txtNombre">Nombre del Riego:</label>
+                </div>
+                <div class="col-10">
+                    <input id="txtNombre" type="text" required autofocus>
+                </div>
+                <div class="col-10">
+                    <label class="buttons" for="txtTipo">Tipo de Riego:</label>
+                </div>
+                <div class="col-10">
+                    <input type="text" name="" id="txtTipo">
+                </div>
+                <div class="col-10">
+                    <label class="buttons" for="Terreno">Terreno:</label>
+                </div>
+                <div class="col-10"><select class="form-select" aria-label="Default select example">
+                    <option selected>Terreno</option>
+                    <option value="1">Terreno 1</option>
+                    <option value="2">Terreno 2</option>
+                    <option value="3">Terreno 3</option>
+                  </select></div>
+                <div class="col-10">
+                    <label class="buttons" for="Semilla">Semilla:</label>
+                </div>
+                <div class="col-10"><select class="form-select" aria-label="Default select example">
+                    <option selected>Semilla</option>
+                    <option value="1">Fresa</option>
+                    <option value="2">Chile</option>
+                    <option value="3">Jitomate</option>
+                  </select></div>
+                  <div class="col-10">
+                    <label class="buttons" for="txtDes">Descripccion:</label>
+                </div>
+                <div class="col-10">
+                    <input type="text" name="" id="tstDes">
+                </div>
+                <div class="col-12" id="dvbutton">
+                    <a class="btn btn-success buttons col-5" type="submit" href="menu.html">Iniciar Riego</a>
+                </div>
+                </div>
+                <div class="dv2">
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                        var setting = {"query":"Santa Ana Maya, Mich., México","width":800,"height":600,"satellite":false,"zoom":12,"placeId":"ChIJXz9hkRPgLIQR-anKOimWlFs","cid":"0x5b9496293acaa9f9","coords":[20.0062768,-101.0231001],"lang":"es","queryString":"Santa Ana Maya, Mich., México","centerCoord":[20.0062768,-101.0231001],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1084903"};
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=1084903';
+                        s.async = true;
+                        s.onload = function (e) {
+                          window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                      })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+                </div>
+                
+            </form>
+            
+    </main>
+    <footer class="py-4">
+        <p class="fuenteCuerpo">© 2017–2024 Company, Inc. · </p>
+      </footer>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
