@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+header{
+    position: absolute;
+    width: 100%;
+    margin-top: -3.5rem; 
+    border-bottom:3px solid #198754;
+    background-color: rgb(220, 201, 168);
+}
+body{
+  background-color: rgb(220, 201, 168);
+}
+main{
+    /*Colocar margen suficiente para el contenido de la página
+    debido al "defecto" causado por el posicionamiento fijo del menú*/
+    margin-top: 3.5rem;
+    min-height: calc(100vh - 11rem);
+    padding: 1% 0;
+    background-color: rgb(220, 201, 168);
+  }
+footer{
+    border-top:5px solid #198754;
+    height: 5rem;
+    background-color: rgb(220, 201, 168);
+  }
+form{
+    display: block;
+    margin-top: 0em;
+}
+.fuenteTitulo {
+    font-family: "Port Lligat Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color:#198754;
+  }
+  .buttons{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .fuenteCuerpo{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  #carouselExampleAutoplaying img{
+    height: calc(100vh - 2rem);
+  }
+  .carousel-caption h1{
+    padding: 1%;
+  }
+  #contenido{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1%;
+  }
+  .info{
+    background-color: rgb(220, 201, 168);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+  }
+  #contenido div{
+    width: 50%;
+    height: 50vh;
+    overflow:hidden
+}

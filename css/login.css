@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+        display: flex;
+        justify-content: center;
+        width: 27%;
+        margin: 8.5rem auto;
+        box-shadow: 0 0 10px rgba(19, 87, 54,.8);
+        padding: 2px;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #198754;
+    outline: none;
+    background-color: rgb(220, 201, 168);
+
+}
+#dv{
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 70px;
+}
+#dv div{
+    padding: 2% 0;
+}
+#dv div img{
+    height: 75px;
+    width: 75px;
+}
+#dvbutton{
+    display: flex;
+    justify-content: space-around;
+    
+}

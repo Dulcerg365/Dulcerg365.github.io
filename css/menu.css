@@ -1,0 +1,140 @@
+
+#menu{
+    display: flex;
+    width: 100%;
+    background-color: #198754;
+    align-content: center;
+    padding: 0 1%;
+    justify-content: space-around;
+}
+a {
+    color:aliceblue;
+    text-decoration: none;
+}
+#menu div a{
+    width: 100%;
+    text-align: center; 
+}
+#menu div{
+    width: 33.33%;
+    height: 7vh;
+    overflow:hidden;
+    display: flex;
+    align-items: center;  
+    cursor: pointer;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cajapadre{
+    width: 40%;
+    padding-left: 10%;
+    position: absolute;
+}
+.contenedor{
+    width: 100%;
+    padding: 30px 30px;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px #198754;
+
+}
+.contenedor *{
+    color:#198754;
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+}
+.riegos:not(:last-child){
+    margin-bottom: 30px;
+}
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.opciones{
+    position: relative;
+    border: 1px solid #198754;
+    border-radius: 20px;
+
+}
+.opciones div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #198754;
+}
+#datos{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 5%;
+}
+#general{
+    width: 50%;
+}
+#img-btn{
+    width: 100%;
+    height: 57vh;
+    background-image: url(../img/Jitomate.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center ;
+}
+#img-btn1{
+    width: 100%;
+    height: 57vh;
+    background-image: url(../img/Riego3.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center ;
+    background-size: cover;
+}
+#img-btn h1, #img-btn1 h1{
+    color: white;
+    font-size: 60px;
+}
+#general div{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+/*Animacion*/
+
+#Anual{
+    animation: Anual-barra 2s forwards;
+}
+#Mensual{
+    animation: Mensual-barra 2s forwards;
+}
+#Semanal{
+    animation: Semanal-barra 2s forwards;
+}
+#Diario{
+    animation: Diario-barra 2s forwards;
+}
+@keyframes Anual-barra{
+    100%{width:30%;
+    }
+}
+@keyframes Mensual-barra{
+    100%{width:70%;
+    }
+}
+@keyframes Semanal-barra{
+    100%{width:80%;
+    }
+}
+@keyframes Diario-barra{
+    100%{width:10%;
+    }
+}

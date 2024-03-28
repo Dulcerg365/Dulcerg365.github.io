@@ -1,0 +1,13 @@
+form{
+    width: 60%;
+    margin-top: 4rem;
+}
+.dv2{
+    padding: 2%;
+    width: 50%;
+    display: flex;
+    align-items: center ;
+}
+#dv{
+    padding: 2%;
+}
